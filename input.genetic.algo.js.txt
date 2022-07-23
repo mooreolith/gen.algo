@@ -24,7 +24,7 @@ string. It uses this number, the "cost" to compare and
 sort the Gene's in a population's member pool. 
 
 They are mutated, sorted by cost, the best two are 
-crossbread, and their children are added to the pool,
+crossbred, and their children are added to the pool,
 before the members get mutated, difference/cost 
 calculated, sorted, and the wondrous circle oef life 
 repeats itself in this memetic land scape. 
