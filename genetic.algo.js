@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
 
 genetic.algo.js
@@ -194,9 +196,7 @@ if(require.main === module){
         data.split('\n').map(line => evolve(line))
       })
     }else{
-      for(var i=2; i<process.argv.length; i++){
-        evolve(process.argv[i])
-      }
+      evolve(process.argv[j])
     }
   }
 }
