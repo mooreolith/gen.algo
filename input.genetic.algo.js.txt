@@ -1,0 +1,52 @@
+Hi. Hello. Greetings.
+
+This is the author of your document speaking. My name is 
+Joshua Marshall Moore
+You can reach me at mooreolith@proton.me .
+
+The nodejs program "genetic.algo.js" imitates evolution. 
+Defined are two classes, a Gene, and a Population, 
+consisting of Genes. 
+
+The Gene can randomize itself to a length, mate, mutate,
+and the lot of them are contained in a Population.members
+field.
+
+The Population is passed an argument of what you, the 
+invoker is trying to "grow". The genes start out at 
+random, but at the length of our target string. We're 
+cheating a little, so we don't have to deal with cases 
+where all the letters decide they should disappear. 
+
+The population can calculate the difference between the 
+Gene's "code" string, and the population's "target"
+string. It uses this number, the "cost" to compare and 
+sort the Gene's in a population's member pool. 
+
+They are mutated, sorted by cost, the best two are 
+crossbread, and their children are added to the pool,
+before the members get mutated, difference/cost 
+calculated, sorted, and the wondrous circle oef life 
+repeats itself in this memetic land scape. 
+
+Over several generations, the statistics work out in the
+ways that Mendelev described, and statistical effects 
+and counterintuitions begin to take shape. Like this 
+one: 
+
+The population can through this cycle approach (in terms
+of the "Levenshtein distance", which is a function that 
+returns a number (an integer) for how different two 
+strings are, based on how many changes to the string it
+would take to accomplish the target string from source
+string with the calculated operations. It can be used as 
+a way of adding and subtracting letters, and thus is
+useful in text processing. 
+
+Not this text, however. It is devoid of use except for
+the purpose of a toy. 
+
+To view this source code, make sure that nodejs is 
+installed, and enter node genetic.algo.js genetic.algo.js
+at your command prompt, having downloaded and navigated 
+to the same directory. 
