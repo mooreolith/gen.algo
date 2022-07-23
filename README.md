@@ -7,4 +7,4 @@ This is nothing fancy. It's probably incredibly ineficcient, and like not even "
 
 To run this node.js program, make sure NodeJS is installed, then call node genetic.algo.js with text files containining short lines of text as command line argument. Logn lines of text will bust this program, it is not very efficicent.
 
-For example `node genetic.algo.js genetic.algo.js`
+For example `node genetic.algo.js genetic.algo.js` or `node genetic.algo.js input.genetic.algo.js.txt`.
