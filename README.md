@@ -5,4 +5,6 @@ The two data structures used here are the Gene and the Population, a convenience
 
 This is nothing fancy. It's probably incredibly ineficcient, and like not even "correct". But it produces a nice visual effect when you run it. 
 
-To run this node.js program, make sure NodeJS is installed, then call node genetic.algo.js with text files containining short lines of text. Logn lines of text will bust this program, it is not very efficicent.
+To run this node.js program, make sure NodeJS is installed, then call node genetic.algo.js with text files containining short lines of text as command line argument. Logn lines of text will bust this program, it is not very efficicent.
+
+For example `node genetic.algo.js genetic.algo.js`
